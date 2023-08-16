@@ -14,6 +14,9 @@ const preview = {
       dark: { ...themes.dark, appBg: 'black' },
       // Override the default light theme
     },
+    docs: {
+      theme: themes.dark,
+    },
   },
 }
 
