@@ -6,6 +6,14 @@ export default {
   component: Avatar,
   args: {
     src: 'https://github.com/elioenays.png',
+    alt: 'Elioenay Silva',
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 } as Meta<AvatarProps>
 
